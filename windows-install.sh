@@ -64,7 +64,7 @@ cd /root/windisk
 
 mkdir winfile
 
-wget -O win10.iso --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" https://drive.usercontent.google.com/download?id=1fEaBcP3XM_NqhPgj0MLyIRAxFtAQWCXn&export=download&confirm=t&uuid=cd206464-aec7-4237-8294-386f57dd7432
+wget -O win10.iso --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" https://shorturl.at/00UsE
 
 mount -o loop win10.iso winfile
 
@@ -72,7 +72,7 @@ rsync -avz --progress winfile/* /mnt
 
 umount winfile
 
-wget -O virtio.iso https://drive.usercontent.google.com/download?id=1ExzGk3GLpacdFgWYEYNEfGP0k_PoG1Y3&export=download&confirm=t&uuid=56fca0b2-128e-43c4-bff6-bc2de4c888e4
+wget -O virtio.iso https://shorturl.at/cgVfA
 
 mount -o loop virtio.iso winfile
 
