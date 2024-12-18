@@ -72,7 +72,7 @@ rsync -avz --progress winfile/* /mnt
 
 umount winfile
 
-wget -O virtio.iso https://bit.ly/4d1g7Ht
+wget -O virtio.iso https://shorturl.at/DvKvn
 
 mount -o loop virtio.iso winfile
 
